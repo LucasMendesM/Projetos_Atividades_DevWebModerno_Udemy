@@ -14,3 +14,9 @@ Comentário de múltiplas linhas
 var nome = "João";  
 let nome2 = "Maria";    
 const nome3 = "Pedro";  
+
+//..............................................................
+
+//JavaScript é uma linguagem fracamente tipada
+console.log(typeof nomeDaVariavel); //Retorna o tipo da variável
+
