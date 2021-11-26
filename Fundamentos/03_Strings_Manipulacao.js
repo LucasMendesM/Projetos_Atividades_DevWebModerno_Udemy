@@ -12,3 +12,18 @@ console.log('Escola '.concat(escola).concat("!")) //Retorna a concatenação de 
 console.log(escola.replace(3, 'e')) //Retorna a substituição do caracter 3 por 'e'
 
 console.log('Ana,Maria,Pedro'.split(',')) //Retorna um array com os elementos separados por ','
+
+//..............................................................
+
+// Template Strings:
+const nome = 'Rebeca'
+const concatenacao = 'Olá ' + nome + '!'
+const template = `Olá ${nome}` //Ao invés de aspas duplas, usa crase.
+//Ao invés de concatenar, usar o simbolo do dolar e chaves.
+
+//Expressoes...
+console.log(`1 + 1 = ${1 + 1}`)
+
+//Chamando uma função dentro de um Template string...
+const up = texto => texto.toUpperCase()
+console.log(`Ei... ${up('cuidado')}!`)
